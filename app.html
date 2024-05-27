@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+    <title>Gasolina | Etanol</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" id="formulario">
+
+            <label for="">Combustivel</label>
+
+            <input type="number" name="etanol" id="etanol" placeholder="Etanol" step="0.01">
+
+            <input type="number" name="gasolina" id="gasolina" placeholder="Gasolina" step="0.01">
+
+            <input type="button" value="CALCULAR" onclick="calcular()">
+
+            <input type="reset" value="LIMPAR" onclick="limpar()">
+        </form>
+        <img src="./img/tanque.png" alt="tanque-combustivel" id="status">
+
+        <p id="mensagem">Resultado:</p>
+    </div>
+</body>
+</html>
