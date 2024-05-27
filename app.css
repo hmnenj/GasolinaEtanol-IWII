@@ -31,7 +31,7 @@ input [type="number"] {
     box-sizing: border-box;
 }
 
-input [type="button"], [type="reset"] {
+input[type="button"], input[type="reset"] {
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
